@@ -1,0 +1,22 @@
+{
+  "name": "merch-distribution",
+  "version": "1.0.0",
+  "description": "A full-stack merch distribution app made for BPHC",
+  "main": "index.js",
+  "repository": "https://github.com/punss/merch.git",
+  "author": "Hridik Punukollu",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.20"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  }
+}

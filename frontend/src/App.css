@@ -1,0 +1,36 @@
+.Logo {
+  width: 2vw;
+  height: auto;
+}
+
+.container {
+  display: grid;
+}
+
+.LeftContainer {
+  width: calc(vw/2);
+  background-color: aquamarine;
+  /* left: 0px;
+  position: absolute; */
+  grid-column: 1;
+}
+
+.RightContainer {
+  background-color: #61dafb;
+  width: calc(vw/2);
+  /* right: 0px;
+  position: absolute; */
+  grid-column: 2;
+}
+
+.menuButton {
+  margin-right: 2;
+}
+
+.title {
+  flex-grow: 1;
+}
+
+:root {
+ flex-grow: 1; 
+}
